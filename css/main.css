@@ -1,0 +1,120 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+</style>
+
+
+/*header*/
+
+@media screen and (max-width: 960px) {
+
+    body, input, select, textarea {
+        font-size: 16px;
+        line-height:26px;
+    }
+
+}
+
+
+
+a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 36px;
+    margin: 0 0 1em 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.36em;
+}
+
+
+a {
+    color: #e5474b;
+}
+
+h3 {
+    color: #1d4ef1;
+}
+/* Header */
+
+body {
+    position: relative;
+    padding-top: 5em;
+}
+
+#header {
+    background: #161616;
+    color: ##e0e0e0;
+    cursor: default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+
+#header .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+}
+
+#header .logo {
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    height: inherit;
+    left: 0;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    color: #1d4ef1;
+    font-size: 1.75em;
+    text-transform: none;
+    font-weight: normal;
+    padding: 0;
+}
+
+#header .logo:hover {
+    color: #671df1;
+}
+
+#header a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    padding: 0 2em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+}
+
+#header a:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#header a:last-child {
+    padding-right: 0em;
+}
+
