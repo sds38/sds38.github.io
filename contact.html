@@ -1,23 +1,34 @@
 <!DOCTYPE HTML>
 <html>
-<!-- Header	     -->
-    		<header id="header">
-    		<div class="inner">
+    <head>
+        <title>Shail Shah's Interactive Resume</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
                 <a href="index.html" class="logo">Shail Dipak Shah</a>
                 <nav id="nav">
                     <a href="index.html">Home</a>
+                    <a href="achievements.html">Achievements</a>
                     <a href="resume.html">Resume</a>
                     <a href="contact.html">Contact Me</a>
                 </nav>
             </div>
+        </header>
+        <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
-            </header>
 
-<!-- Form -->
+          <!-- Form -->
 
-                <section id="contactform">
-                    <h3>Contact Me</h3>
+                    <section id="contactform">
+                    <div align = "center" > <h3>Contact Me</h3> </div>
                     <form method="post" action="#">
+                        <div align = "center" > 
                         <div class="row uniform 50%">
                             <div class="6u 12u$(xsmall)">
                                 <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
@@ -54,9 +65,16 @@
                                 </ul>
                             </div>
                         </div>
+                        </div>
                     </form>
                 </section>
-   
+
+
+        <!-- Scripts -->
+        <script src="src/jquery.min.js"></script>
+        <script src="src/skel.min.js"></script>
+        <script src="src/util.js"></script>
+        <script src="src/main.js"></script>
 
     </body>
 </html>
