@@ -185,3 +185,45 @@ body {
 #banner h1 span {
     font-weight: 400;
 }
+
+@media screen and (max-width: 960px) {
+    #banner {
+        padding: 13em 0 11em 0;
+    }
+
+    #main {
+        padding: 3em 0 3em 0;
+        background: -moz-linear-gradient(top, #FCFFF5 0%, #FCFFF5 50%, #D1DBBD 0%, #D1DBBD 100%);
+        background: -webkit-linear-gradient(top, #FCFFF5 0%, #FCFFF5 50%, #D1DBBD 0%, #D1DBBD 100%);
+        background: linear-gradient(to bottom, #FCFFF5 0%, #FCFFF5 50%, #D1DBBD 0%, #D1DBBD 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCFFF5', endColorstr='#D1DBBD',GradientType=0 );
+    }
+
+    #main .inner {
+        -moz-flex-direction: column;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #main .inner article {
+        width: 100%;
+    }
+
+    #main .inner article:first-child {
+        padding-bottom: 4em;
+        padding-right: 00;
+       
+    }
+
+    #main .inner article:last-child {
+        padding-top: 4em;
+        padding-left: 00;
+       
+    }
+
+
+   #contactform {
+    
+    text-align:center;
+   }
